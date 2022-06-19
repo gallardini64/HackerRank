@@ -1,0 +1,14 @@
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.exe
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.deps.json
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.runtimeconfig.json
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.runtimeconfig.dev.json
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.dll
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.pdb
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.csproj.AssemblyReference.cache
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.AssemblyInfoInputs.cache
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.AssemblyInfo.cs
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.csproj.CoreCompileInputs.cache
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.dll
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.pdb
+C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.genruntimeconfig.cache
