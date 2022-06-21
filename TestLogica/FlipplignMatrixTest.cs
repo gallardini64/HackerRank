@@ -18,7 +18,7 @@ namespace TestLogica
                             new List<int>(){1,2,3,4},
                             new List<int>(){1,2,3,4}
             };
-            FlippingMatrix.FlipRow(matrix, index: indexToFlip);
+            FlippingMatrix.FlipRow(ref matrix, index: indexToFlip);
             Assert.IsTrue(FlippingMatrix.AreTheSame(matrix[indexToFlip],new List<int>() { 4,3,2,1 }));
         }
 
@@ -100,7 +100,8 @@ namespace TestLogica
                             new List<int>(){15,78,101,43},
                             new List<int>(){62,98,114,108},
             };
-            FlippingMatrix.CompareAndChange(matrix, row: 0, column: 0);
+            //TODO: el anterior se encuentra en el primer cuadrante?
+            FlippingMatrix.CompareAndChange(ref matrix, row: 0, col: 0);
             Assert.IsTrue(FlippingMatrix.AreTheSame(matrix,Expected));
         }
 

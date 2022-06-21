@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\TestLogica\\TestLogica.csproj": {}
+    "C:\\repos\\HackerRank\\TestLogica\\TestLogica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj": {
+    "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
+        "projectUniqueName": "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
         "projectName": "EjerciciosLogicos",
-        "projectPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
+        "projectPath": "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\obj\\",
+        "outputPath": "C:\\repos\\HackerRank\\EjerciciosLogicos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,18 +54,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\TestLogica\\TestLogica.csproj": {
+    "C:\\repos\\HackerRank\\TestLogica\\TestLogica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\TestLogica\\TestLogica.csproj",
+        "projectUniqueName": "C:\\repos\\HackerRank\\TestLogica\\TestLogica.csproj",
         "projectName": "TestLogica",
-        "projectPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\TestLogica\\TestLogica.csproj",
+        "projectPath": "C:\\repos\\HackerRank\\TestLogica\\TestLogica.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\TestLogica\\obj\\",
+        "outputPath": "C:\\repos\\HackerRank\\TestLogica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj": {
-                "projectPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj"
+              "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj": {
+                "projectPath": "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj"
               }
             }
           }
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
