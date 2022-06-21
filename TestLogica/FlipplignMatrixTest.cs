@@ -85,6 +85,25 @@ namespace TestLogica
             Assert.AreEqual(414, result);
         }
 
+        [TestMethod]
+        public void CompareWithSquares()
+        {
+            var matrix = new List<List<int>>() {
+                            new List<int>(){112,42,83,119},
+                            new List<int>(){56,125,56,49},
+                            new List<int>(){15,78,101,43},
+                            new List<int>(){62,98,114,108},
+            };
+            var Expected = new List<List<int>>() {
+                            new List<int>(){119,83,42,112},
+                            new List<int>(){56,125,56,49},
+                            new List<int>(){15,78,101,43},
+                            new List<int>(){62,98,114,108},
+            };
+            FlippingMatrix.CompareAndChange(matrix, row: 0, column: 0);
+            Assert.IsTrue(FlippingMatrix.AreTheSame(matrix,Expected));
+        }
+
 
     }
 }

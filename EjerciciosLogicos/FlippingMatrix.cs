@@ -134,6 +134,34 @@ namespace EjerciciosLogicos
             }
         }
 
+        public void CompareAndChange(List<List<int>> matrix, int row, int column)
+        {
+            var longitud = matrix.Count;
+            var l = matrix.Count - 1;
+            for (int i = 0; i < longitud; i++)
+            {
+                for (int j = 0; j < longitud; j++)
+                {
+                    var rightTopCorner = matrix[l-i][j];
+                    var leftBaseCorner = matrix[i][l-j];
+                    var rightBaseCorner = matrix[l-i][l-j];
+                    var array = new List<(int valor, int x, int y)>();
+                    array.Add((matrix[i][j], i, j));
+                    array.Add((rightTopCorner, l-i, j));
+                    array.Add((leftBaseCorner, i, l-j));
+                    array.Add((rightBaseCorner, l-i, l-j));
+                    var max = array.Max();
+                    if (max.valor == rightTopCorner) FlipRow(matrix, max.x);
+                    if (max.valor == leftBaseCorner) FlipColumn(ref matrix, max.y);
+                    if (max.valor == rightTopCorner) 
+                    {
+                        FlipColumn(ref matrix, max.y);
+                        FlipRow(matrix, max.x);
+                    }
+                }
+            }
+        }
+
         public List<List<int>> GetQuadrant(List<List<int>> matrix)
         {
             var result = new List<List<int>>();
@@ -149,4 +177,6 @@ namespace EjerciciosLogicos
             return result;
         }
     }
+
+
 }
