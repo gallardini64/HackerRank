@@ -16,7 +16,7 @@ namespace EjerciciosLogicos
             return result.Sum(x => x.Sum());
         }
 
-        public void FlipRow(List<List<int>> matrix, int index)
+        public void FlipRow(ref List<List<int>> matrix, int index)
         {
             matrix[index].Reverse();
         }
@@ -48,12 +48,12 @@ namespace EjerciciosLogicos
 
         public static void TransposeMatrix(ref List<List<int>> matrix)
         {
-            var listAux = new int[matrix.Count,matrix.Count];
-            for (var row = 0; row < matrix.Count;   row++)
+            var listAux = new int[matrix.Count, matrix.Count];
+            for (var row = 0; row < matrix.Count; row++)
             {
                 for (var column = 0; column < matrix.Count; column++)
                 {
-                    listAux[row,column] = matrix[column][row];
+                    listAux[row, column] = matrix[column][row];
                 }
             }
             matrix = ToList(listAux);
@@ -67,7 +67,7 @@ namespace EjerciciosLogicos
                 var aux = new List<int>();
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    aux.Add(array[i,j]);
+                    aux.Add(array[i, j]);
                 }
                 list.Add(aux);
             }
@@ -93,7 +93,7 @@ namespace EjerciciosLogicos
             {
                 for (int j = 0; j < result.Count; j++)
                 {
-                    if(result[i][j] != expected[i][j]) return false;
+                    if (result[i][j] != expected[i][j]) return false;
                 }
             }
             return true;
@@ -128,47 +128,40 @@ namespace EjerciciosLogicos
                     if (j < matrix.Count / 2) acc1 += matrix[i][j];
                     else acc2 += matrix[i][j];
                 }
-                if (acc1 < acc2) FlipRow(matrix, i);
+                if (acc1 < acc2) FlipRow(ref matrix, i);
                 acc1 = 0;
                 acc2 = 0;
             }
         }
 
-        public void CompareAndChange(List<List<int>> matrix, int row, int column)
+        public void CompareAndChange(ref List<List<int>> matrix, int row, int column)
         {
-            var longitud = matrix.Count;
-            var l = matrix.Count - 1;
-            for (int i = 0; i < longitud; i++)
+            var leng = matrix.Count - 1;
+            var leftBase = matrix[leng - row][column];
+            var rightTop = matrix[row][leng - column];
+            var rightBaseCorner = matrix[leng - row][leng - column];
+            var array = new List<(int valor, int x, int y)>();
+            array.Add((matrix[row][column], row, column));
+            array.Add((leftBase, leng - row, column));
+            array.Add((rightTop, row, leng - column));
+            array.Add((rightBaseCorner, leng - row, leng - column));
+            var max = array.Max();
+            if (max.valor == leftBase) FlipColumn(ref matrix, max.y);
+            if (max.valor == rightTop) FlipRow(ref matrix, max.x);
+            if (max.valor == leftBase)
             {
-                for (int j = 0; j < longitud; j++)
-                {
-                    var rightTopCorner = matrix[l-i][j];
-                    var leftBaseCorner = matrix[i][l-j];
-                    var rightBaseCorner = matrix[l-i][l-j];
-                    var array = new List<(int valor, int x, int y)>();
-                    array.Add((matrix[i][j], i, j));
-                    array.Add((rightTopCorner, l-i, j));
-                    array.Add((leftBaseCorner, i, l-j));
-                    array.Add((rightBaseCorner, l-i, l-j));
-                    var max = array.Max();
-                    if (max.valor == rightTopCorner) FlipRow(matrix, max.x);
-                    if (max.valor == leftBaseCorner) FlipColumn(ref matrix, max.y);
-                    if (max.valor == rightTopCorner) 
-                    {
-                        FlipColumn(ref matrix, max.y);
-                        FlipRow(matrix, max.x);
-                    }
-                }
+                FlipColumn(ref matrix, max.y);
+                FlipRow(ref matrix, max.x);
             }
         }
 
         public List<List<int>> GetQuadrant(List<List<int>> matrix)
         {
             var result = new List<List<int>>();
-            for (int i = 0; i < matrix.Count/2; i++)
+            for (int i = 0; i < matrix.Count / 2; i++)
             {
                 var aux = new List<int>();
-                for (int j = 0; j < matrix.Count/2; j++)
+                for (int j = 0; j < matrix.Count / 2; j++)
                 {
                     aux.Add(matrix[i][j]);
                 }
