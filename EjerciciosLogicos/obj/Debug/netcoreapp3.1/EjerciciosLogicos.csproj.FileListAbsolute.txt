@@ -12,3 +12,17 @@ C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcor
 C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.dll
 C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.pdb
 C:\Users\lucia\source\repos\EjerciciosLogicos\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.genruntimeconfig.cache
+C:\repos\HackerRank\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.exe
+C:\repos\HackerRank\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.deps.json
+C:\repos\HackerRank\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.runtimeconfig.json
+C:\repos\HackerRank\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.runtimeconfig.dev.json
+C:\repos\HackerRank\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.dll
+C:\repos\HackerRank\EjerciciosLogicos\bin\Debug\netcoreapp3.1\EjerciciosLogicos.pdb
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.csproj.AssemblyReference.cache
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.AssemblyInfoInputs.cache
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.AssemblyInfo.cs
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.csproj.CoreCompileInputs.cache
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.dll
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.pdb
+C:\repos\HackerRank\EjerciciosLogicos\obj\Debug\netcoreapp3.1\EjerciciosLogicos.genruntimeconfig.cache

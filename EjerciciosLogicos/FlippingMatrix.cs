@@ -152,8 +152,16 @@ namespace EjerciciosLogicos
             {
                 FlipColumn(ref matrix, max.y);
                 FlipRow(ref matrix, max.x);
+                if (max.valor == leftBase) FlipColumn(ref matrix, max.y);
+                if (max.valor == rightTop)
+                {
+                    FlipColumn(ref matrix, max.y);
+                    FlipRow(ref matrix, max.x);
+                }
             }
         }
+
+
 
         public List<List<int>> GetQuadrant(List<List<int>> matrix)
         {
@@ -170,6 +178,7 @@ namespace EjerciciosLogicos
             return result;
         }
     }
-
-
 }
+
+
+
