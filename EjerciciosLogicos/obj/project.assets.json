@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
+      "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
       "projectName": "EjerciciosLogicos",
-      "projectPath": "C:\\repos\\HackerRank\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
+      "projectPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\EjerciciosLogicos.csproj",
       "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\HackerRank\\EjerciciosLogicos\\obj\\",
+      "outputPath": "C:\\Users\\lucia\\source\\repos\\EjerciciosLogicos\\EjerciciosLogicos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

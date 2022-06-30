@@ -26,7 +26,7 @@ namespace TestLogica
                 new Noticia(){ Contenido = "El primer parcial de pav es aprobandon't por casi toda la comision"},
                 new Noticia(){ Contenido = "se filtra audio bochornoso despues del primer parcial"},
             };
-            var problema = new Problema();
+            var problema = new ProblemaWeb();
             problema.IniciarRutina(
             new List<Suscriptor>()
             {

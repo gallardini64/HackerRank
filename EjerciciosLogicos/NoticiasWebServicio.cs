@@ -16,7 +16,7 @@ namespace EjerciciosLogicos
     //el metodo iniciar rutina va a ser el primero en ejecutarse
     //el metodo del suscriptor para recibir las noticias se encuentra desactivado, solo sebe activarse en las implementaciones
     //
-    public class Problema
+    public class ProblemaWeb
     {
         //Completar
         public void IniciarRutina(List<Suscriptor> suscriptors, List<Suscripcion> suscripcions, NoticiasWebServicio servicio)
